@@ -11,7 +11,7 @@ console.log("API Key:", process.env.API_KEY);
 app.use(
   cors({
     origin:
-      process.env.FRONTEND_URL || "https://frontend-theta-sooty-15.vercel.app/",
+      process.env.FRONTEND_URL || "https://frontend-theta-sooty-15.vercel.app",
   })
 );
 app.use(express.json());
